@@ -3,5 +3,5 @@
 run 
 ```bash
 source update.sh
-run source .osx
+source .osx
 ```
