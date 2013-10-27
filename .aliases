@@ -1,0 +1,42 @@
+# Navigation
+alias ssh-mariobros="ssh root@69.55.57.210"
+alias ssh-uni="ssh mjuha001@login1.mi.hs-rm.de"
+
+alias cd-ios="cd /Users/martinjuhasz/Arbeit/iOS"
+alias cd-watched="cd /Users/martinjuhasz/Arbeit/iOS/watched"
+alias cd-fh="cd /Users/martinjuhasz/Privat/FH/S02"
+
+alias ..="cd .."
+
+# Lists & Directorys
+alias ls="ls -G"
+alias ll="ls -al"
+alias lsd='ls -l | grep "^d"'
+
+#better grep
+alias grep="grep --color=always"
+
+# Enable aliases to be sudo’ed
+alias sudo='sudo '
+
+# IP addresses
+alias ip="curl icanhazip.com"
+alias localip="ipconfig getifaddr en1"
+alias ips="ifconfig -a | grep -o 'inet6\? \(\([0-9]\+\.[0-9]\+\.[0-9]\+\.[0-9]\+\)\|[a-fA-F0-9:]\+\)' | sed -e 's/inet6* //'"
+
+# Enhanced WHOIS lookups
+alias whois="whois -h whois-servers.net"
+
+# Flush Directory Service cache
+alias flush="dscacheutil -flushcache"
+
+# Recursively delete `.DS_Store` files
+alias cleanup="find . -type f -name '*.DS_Store' -ls -delete"
+
+# Show/hide hidden files in Finder
+alias show="defaults write com.apple.finder AppleShowAllFiles TRUE && killall Finder"
+alias hide="defaults write com.apple.finder AppleShowAllFiles FALSE && killall Finder"
+
+# Hide/show all desktop icons (useful when presenting)
+alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
+alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"

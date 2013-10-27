@@ -1,0 +1,41 @@
+# Paste file to sprunge.us
+# Usage sprunge <file>
+sprunge() {
+	file=$@
+	CURLACTION=$(cat "$@" | curl -sF "sprunge=<-" http://sprunge.us)
+	result=$CURLACTION"?"${file##*.}
+	echo $result | pbcopy
+	echo $result "copied to clipboard..."
+}
+
+# ⌘c/⌘v from https://github.com/paulirish/dotfiles/
+# Create a new directory and enter it
+function md() {
+	mkdir -p "$@" && cd "$@"
+}
+
+# ⌘c/⌘v from https://github.com/mathiasbynens/dotfiles
+# Create a data URL from an image (works for other file types too, if you tweak the Content-Type afterwards)
+dataurl() {
+	echo "data:image/${1##*.};base64,$(openssl base64 -in "$1")" | tr -d '\n'
+}
+
+# `v` with no arguments opens the current directory in Vim, otherwise opens the
+# given location
+function v() {
+        if [ $# -eq 0 ]; then
+                vim .
+        else
+                vim "$@"
+        fi
+}
+
+# `o` with no arguments opens current directory, otherwise opens the given
+# location
+function o() {
+        if [ $# -eq 0 ]; then
+                open .
+        else
+                open "$@"
+        fi
+}
