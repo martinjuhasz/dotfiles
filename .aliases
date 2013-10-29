@@ -4,7 +4,7 @@ alias ssh-uni="ssh mjuha001@login1.mi.hs-rm.de"
 
 alias cd-ios="cd /Users/martinjuhasz/Arbeit/iOS"
 alias cd-watched="cd /Users/martinjuhasz/Arbeit/iOS/watched"
-alias cd-fh="cd /Users/martinjuhasz/Privat/FH/S02"
+alias cd-fh="cd /Users/martinjuhasz/Privat/FH/S03"
 
 alias ..="cd .."
 
