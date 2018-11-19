@@ -21,6 +21,9 @@ if [[ $TERM != linux && ! $PROMPT_COMMAND =~ init_powerline ]]; then
     PROMPT_COMMAND="init_powerline; $PROMPT_COMMAND"
 fi
 
+# Load iTerm integration
+source ~/.terminal/iterm2_shell_integration.bash
+
 # Editor
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='vim'
