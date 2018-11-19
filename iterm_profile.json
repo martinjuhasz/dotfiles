@@ -82,11 +82,11 @@
       "Disable Window Resizing": true,
       "Screen": -1,
       "Selection Color": {
-        "Red Component": 0.041161512956023216,
+        "Red Component": 0.0,
         "Color Space": "sRGB",
-        "Blue Component": 0.28021940251568367,
+        "Blue Component": 0.44,
         "Alpha Component": 1,
-        "Green Component": 0.846160888671875
+        "Green Component": 0.074
       },
       "Mouse Reporting": true,
       "AWDS Window Directory": "",
