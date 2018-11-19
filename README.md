@@ -3,6 +3,6 @@
 run
 
 ```bash
-source update.sh
-source .osx
+chmod +x setup.sh
+./setup.sh
 ```
