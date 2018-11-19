@@ -1,6 +1,7 @@
-# my dotfiles
+# dotfiles and general setup of my osx machine
 
-run 
+run
+
 ```bash
 source update.sh
 source .osx
