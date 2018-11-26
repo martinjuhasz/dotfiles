@@ -18,6 +18,11 @@ brew cask install font-fira-code
 brew cask install graphiql
 brew cask install arq
 brew cask install electrum
+brew cask install ngrok
+brew cask install quitter
+brew cask install ultimaker-cura
+brew cask install teamviewer
+brew cask install whatsapp
 
 # for external controls
 brew cask install karabiner-elements
