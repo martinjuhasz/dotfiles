@@ -23,6 +23,8 @@ brew cask install quitter
 brew cask install ultimaker-cura
 brew cask install teamviewer
 brew cask install whatsapp
+brew cask install discord
+brew cask install transmit
 
 # for external controls
 brew cask install karabiner-elements
