@@ -10,6 +10,7 @@ git config --global core.excludesfile ~/.gitignore_global
 # copy bash config
 cp .bashrc ~/.bashrc
 cp .bash_profile ~/.bash_profile
+cp .inputrc ~/.inputrc
 
 # install homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
