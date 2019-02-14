@@ -27,6 +27,7 @@ brew cask install discord
 brew cask install google-chrome
 brew tap homebrew/cask-versions
 brew cask install transmit4
+brew cask install aerial
 
 # for external controls
 brew cask install karabiner-elements
