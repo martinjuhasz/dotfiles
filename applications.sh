@@ -7,6 +7,7 @@ brew cask install 1password
 brew cask install sourcetree
 brew cask install figma
 brew cask install telegram
+brew cask install slack
 brew cask install bartender
 brew cask install alfred
 brew cask install vlc
