@@ -11,6 +11,7 @@ brew cask install slack
 brew cask install bartender
 brew cask install alfred
 brew cask install vlc
+brew cask install spotify
 brew cask install appcleaner
 brew cask install itsycal
 brew cask install spectacle
