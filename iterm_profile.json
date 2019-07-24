@@ -122,7 +122,7 @@
         "Red Component": 0.32436618208885193
       },
       "Use Italic Font": true,
-      "Unlimited Scrollback": false,
+      "Unlimited Scrollback": true,
       "Keyboard Map": {
         "0xf700-0x260000": {
           "Action": 10,
