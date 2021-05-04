@@ -1,39 +1,31 @@
-# install basic applications
-brew install nvm
-brew install redis
-brew install yarn
-brew cask install visual-studio-code
-brew cask install 1password
-brew cask install sourcetree
-brew cask install figma
-brew cask install telegram
-brew cask install slack
-brew cask install bartender
-brew cask install alfred
-brew cask install vlc
-brew cask install spotify
-brew cask install appcleaner
-brew cask install itsycal
-brew cask install spectacle
-brew tap caskroom/fonts
-brew cask install font-fira-code
-brew cask install graphiql
-brew cask install arq
-brew cask install electrum
-brew cask install ngrok
-brew cask install quitter
-brew cask install ultimaker-cura
-brew cask install teamviewer
-brew cask install whatsapp
-brew cask install discord
-brew cask install google-chrome
-brew cask install balenaetcher
-brew tap homebrew/cask-versions
-brew cask install transmit4
-brew cask install aerial
+# install homebrew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# for external controls
-brew cask install karabiner-elements
-brew cask install scroll-reverser
-brew tap homebrew/cask-drivers
-brew cask install logitech-gaming-software
+# instlal NVM
+mkdir ~/.nvm
+brew install nvm
+
+# install pyenv
+brew install readline xz
+brew install pyenv
+
+# install osx applications
+brew install --cask brave-browser
+brew install --cask iterm2
+brew install --cask visual-studio-code
+brew install --cask 1password
+brew install --cask sublime-merge
+brew install --cask telegram
+brew install --cask slack
+brew install --cask bartender
+brew install --cask alfred
+brew install --cask vlc
+brew install --cask spotify
+brew install --cask appcleaner
+brew install --cask itsycal
+brew install --cask spectacle
+brew tap homebrew/cask-fonts
+brew install --cask font-fira-code
+brew install --cask teamviewer
+brew install --cask balenaetcher
+brew install --cask aerial
