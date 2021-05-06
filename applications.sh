@@ -29,3 +29,6 @@ brew install --cask font-fira-code
 brew install --cask teamviewer
 brew install --cask balenaetcher
 brew install --cask aerial
+brew install --cask spectacle
+brew install --cask karabiner-elements
+brew install --cask caffeine
