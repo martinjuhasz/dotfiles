@@ -9,7 +9,7 @@ git config --global core.excludesfile ~/.gitignore_global
 # copy configs
 cp .zshrc ~/.zshrc
 cp .inputrc ~/.inputrc
-cp .terminal ~/.terminal
+cp -R .terminal ~/.terminal
 
 # setup default osx config
 source osx.sh
