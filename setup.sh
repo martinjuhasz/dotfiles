@@ -7,7 +7,6 @@ cp .gitignore_global ~/.gitignore_global
 git config --global core.excludesfile ~/.gitignore_global
 
 # copy configs
-cp .zshrc ~/.zshrc
 cp .inputrc ~/.inputrc
 cp -R .terminal ~/.terminal
 

@@ -9,6 +9,8 @@ touch ~/.hushlogin
 curl -L https://iterm2.com/shell_integration/zsh -o ~/.terminal/.iterm2_shell_integration.zsh
 
 # install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-mv ~/.oh-my-zsh ~/.terminal/.oh-my-zsh
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.terminal/.oh-my-zsh/custom}/themes/powerlevel10k
+ZSH=~/.terminal/.oh-my-zsh sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.terminal/.oh-my-zsh/custom/themes/powerlevel10k
+
+# update zsh file
+cp .zshrc ~/.zshrc
