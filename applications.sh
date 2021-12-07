@@ -16,7 +16,6 @@ brew install --cask visual-studio-code
 brew install --cask 1password
 brew install --cask sublime-merge
 brew install --cask telegram
-brew install --cask slack
 brew install --cask bartender
 brew install --cask alfred
 brew install --cask vlc
