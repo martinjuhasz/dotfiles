@@ -34,3 +34,4 @@ brew install --cask caffeine
 brew install --cask discord
 brew install --cask prusaslicer
 brew install --cask autodesk-fusion360
+brew install --cask docker
