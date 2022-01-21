@@ -10,7 +10,7 @@ brew install readline xz
 brew install pyenv
 
 # install osx applications
-brew install --cask brave-browser
+brew install --cask firefox
 brew install --cask iterm2
 brew install --cask visual-studio-code
 brew install --cask 1password
