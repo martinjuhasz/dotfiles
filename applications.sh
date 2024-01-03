@@ -22,18 +22,14 @@ brew install --cask vlc
 brew install --cask spotify
 brew install --cask appcleaner
 brew install --cask itsycal
-brew install --cask spectacle
+brew install --cask rectangle
 brew tap homebrew/cask-fonts
 brew install --cask font-fira-code
-brew install --cask teamviewer
+brew install --cask rustdesk
 brew install --cask balenaetcher
-brew install --cask aerial
-brew install --cask spectacle
 brew install --cask karabiner-elements
-brew install --cask caffeine
 brew install --cask discord
 brew install --cask prusaslicer
 brew install --cask autodesk-fusion360
 brew install --cask docker
 brew install --cask insomnia
-brew install --cask unnaturalscrollwheels
