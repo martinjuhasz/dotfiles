@@ -9,6 +9,9 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
 brew install readline xz
 brew install pyenv
 
+# direnv
+brew install direnv
+
 # install osx applications
 brew install --cask firefox
 brew install --cask iterm2

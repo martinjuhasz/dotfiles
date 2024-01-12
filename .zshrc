@@ -33,6 +33,13 @@ function edit() {
 # Homebrew
 export PATH=/opt/homebrew/bin:$PATH
 
+
+# pyenv
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
+
 # NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -68,6 +75,9 @@ source ~/.terminal/.iterm2_shell_integration.zsh
 
 # oh-my-zsh
 source ~/.terminal/.ohmyzshrc
+
+# direnv
+eval "$(direnv hook zsh)"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.terminal/.p10k.zsh ]] || source ~/.terminal/.p10k.zsh
